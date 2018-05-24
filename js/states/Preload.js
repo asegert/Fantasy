@@ -8,6 +8,12 @@ Fantasy.PreloadState = {
         this.load.setPreloadSprite(preloadProgress);
 
         this.load.image('pixelSiteWander', 'assets/images/pixelSiteWander.jpg');
+        this.load.image('startGame', 'assets/images/startGame.png');
+        this.load.image('gameBoard', 'assets/images/gameBoard.png');
+        this.load.image('dragonGrove', 'assets/images/dragonGrove.png');
+        this.load.image('crystal', 'assets/images/crystal.png');
+        
+        this.load.spritesheet('snowflakeSpritesheet', 'assets/images/snowflakeSpritesheet.png', 22, 25, 9);
     },
     create: function ()
     {
